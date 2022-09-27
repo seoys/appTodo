@@ -86,8 +86,8 @@ class DrawerItem extends React.Component {
         return (
           <Icon
             size={16}
-            name="md-switch"
-            family="ionicon"
+            name="grid-on"
+            family="material"
             color={focused ? "white" : materialTheme.COLORS.MUTED}
           />
         );
